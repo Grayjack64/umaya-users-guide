@@ -1,4 +1,4 @@
-# MjBalmApp User Guide
+# Umaya App User Guide
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -54,16 +54,16 @@
 
 ## Introduction
 
-MjBalmApp is a comprehensive horse management application designed for both individual horse owners and professional trainers/organizations. The app provides tools for tracking horse care, managing tasks, monitoring health records, and organizing events related to equine management.
+Umaya App is a comprehensive horse management application designed for both individual horse owners and professional trainers/organizations. The app provides tools for tracking horse care, managing tasks, monitoring health records, and organizing events related to equine management.
 
-Whether you're a single horse owner or managing a large stable, MjBalmApp offers the flexibility and features to streamline your horse care routines and ensure the best possible care for your equine companions.
+Whether you're a single horse owner or managing a large stable, Umaya App offers the flexibility and features to streamline your horse care routines and ensure the best possible care for your equine companions.
 
 ## Getting Started
 
 ### Account Setup
 
 1. **Download and Install**
-   - Download MjBalmApp from the App Store
+   - Download Umaya App from the App Store
    - Open the app and tap "Create Account"
 
 2. **Personal Account Setup**
@@ -588,13 +588,13 @@ If you need additional assistance:
 
 3. **Organization Support**:
    - Contact your organization administrator for role-specific issues
-   - Request training from your organization's MjBalmApp expert
+   - Request training from your organization's Umaya App expert
 
 4. **Community Forums**:
-   - Access the MjBalmApp community through the website
+   - Access the Umaya App community through the website
    - Share experiences with other users
    - Find solutions to common challenges
 
 ---
 
-*This guide is regularly updated to reflect the latest features and improvements in MjBalmApp. Last updated: June 2023.* 
+*This guide is regularly updated to reflect the latest features and improvements in Umaya App. Last updated: June 2023.* 

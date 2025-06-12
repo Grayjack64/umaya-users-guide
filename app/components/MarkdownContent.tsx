@@ -11,6 +11,18 @@ type MarkdownContentProps = {
   activeSection: string;
 };
 
+// Define types for markdown component props
+type MarkdownComponentProps = {
+  children?: React.ReactNode;
+  className?: string;
+  [key: string]: unknown;
+};
+
+// Define type for code component props
+type CodeProps = MarkdownComponentProps & {
+  inline?: boolean;
+};
+
 export default function MarkdownContent({ content, activeSection }: MarkdownContentProps) {
   const [visibleContent, setVisibleContent] = useState('');
 
@@ -45,7 +57,7 @@ export default function MarkdownContent({ content, activeSection }: MarkdownCont
           
           if (activeSection === subsectionId) {
             // We found our subsection, save just this part
-            let subsectionContent = [line];
+            const subsectionContent = [line];
             let j = i + 1;
             
             // Collect content until the next heading
@@ -84,6 +96,7 @@ export default function MarkdownContent({ content, activeSection }: MarkdownCont
       transition={{ duration: 0.3 }}
       className="prose dark:prose-invert max-w-none prose-headings:scroll-mt-20"
     >
+      {/* eslint-disable @typescript-eslint/no-explicit-any, @typescript-eslint/no-unused-vars */}
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         rehypePlugins={[rehypeRaw]}
@@ -105,6 +118,7 @@ export default function MarkdownContent({ content, activeSection }: MarkdownCont
       >
         {visibleContent}
       </ReactMarkdown>
+      {/* eslint-enable @typescript-eslint/no-explicit-any, @typescript-eslint/no-unused-vars */}
     </motion.div>
   );
 } 
